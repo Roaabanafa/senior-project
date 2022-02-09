@@ -9,18 +9,21 @@ body {
 }
 
 .header {
-    position: absolute;
+    /*position: absolute;
 		overflow: visible;
 		width: 1250px;
 		height: 136px;
 		left: 0px;
 		top: 0px;
-
-    /*
+*/
+    
     overflow: hidden;
     background-color: white;
     padding: 20px 10px;
-    border: inset;*/
+    border: inset;
+    left: 0px;
+    top: 0px;
+    
 }
 
 
@@ -37,7 +40,7 @@ body {
 
         .header a.logo {
             left: 52px;
-            top: 34px;
+            top: 22px;
             position: absolute;
             overflow: visible;
             width: 387px;
@@ -88,7 +91,7 @@ body {
     margin: 0;
     position: absolute;
     text-align:center;
-    top: 50%;
+    top: 28%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -98,17 +101,38 @@ form {
     border: 3px solid #f1f1f1;
 }
 
+label {
+    text-align: left;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+
+
 input[type=text], input[type=password], input[type=email] {
-    width: 100%;
+    width: 30%;
     align-items: center;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-}
-
-
+    }
+/*---------------------------------------------------*/
+    .col-25 {
+        float: left;
+        width: 50%;
+        margin-top: 10px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+    
+  /*---------------------------------------------------*/
+      
 .cancelbtn {
     width: auto;
     padding: 10px 18px;

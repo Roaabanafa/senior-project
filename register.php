@@ -23,15 +23,7 @@
 <body>
 
     
-  <!--  <div class="header">
-        <a href="#default" class="logo">My Wellbeing</a>
-        <div class="header-right">
-            <a href="homePage.html">Home</a>
-            <a href="register.php">Sign up</a>
-            <a href="signin.html">Sign in</a>
-        </div>
-    </div>
--->
+<?php include('header.php')?>
 
 
     <form method="post" action="register.php" style="border:1px solid #ccc">
@@ -42,10 +34,10 @@
             <hr>
         </div>
     
-    </br></br></br>
-
+    </br></br></br></br></br></br>
+    <div align="center">
         <div>
-            <label for="fname"><b>First name:</b></label>
+            <label for="fname" ><b>First name:</b></label>
             <input type="text" name="fname" value="<?php echo $fname;?>" required>
 
         </div>
@@ -84,16 +76,19 @@
         </div>
         </br>
 
-        <div class="clearfix">
-            <button type="submit" class="button" name="reg_user">Sign Up</button>
-        </div>
-        <p></p>
-
         <label>
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
         </label>
 
+    </br>
+        <div class="clearfix">
+            <button type="submit" class="button" name="reg_user" >Sign Up</button>
         </div>
+
+        
+
+        </div>
+    </div>
     </form>
 
 </body>
