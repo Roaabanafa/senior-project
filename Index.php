@@ -3,7 +3,7 @@
 <head>
     <title>My Wellbeing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -11,7 +11,7 @@
         <a href="homePage.html" class="logo">My Wellbeing</a>
         <div class="header-right">
             <a href="homePage.html">Home</a>
-            <a href="signup.html">Sign up</a>
+            <a href="register.php">Sign up</a>
             <a href="signin.html">Sign in</a>
         </div>
     </div>
