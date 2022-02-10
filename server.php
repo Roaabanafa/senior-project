@@ -52,7 +52,7 @@ if (isset($_POST['reg_user'])) {
   			  VALUES('$fname','$lname','$user_sex','$email', '$password')";
   	mysqli_query($db, $query);
   	$_SESSION['email'] = $email;
-  	$_SESSION['success'] = "You are now logged in";
+  	//$_SESSION['success'] = "You are now logged in";
   	header('location: index.php');
   }
 }
@@ -79,7 +79,7 @@ if (isset($_POST['login_user'])) {
   	if (mysqli_num_rows($results) == 1) {
   	  $_SESSION['email'] = $email;
   	  //$_SESSION['success'] = "You are now logged in";
-  	  header('location: index.php');
+  	  header('location: Index.php');
   	}else {
   		array_push($errors, "Wrong Email/password combination");
   	}
