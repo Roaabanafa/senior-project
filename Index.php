@@ -24,7 +24,6 @@
 </head>
 <body>
 
-<?php include('header.php')?>
 
 <div class="content">
   	<!-- notification message -->
@@ -32,16 +31,22 @@
           <?php 
           	echo $_SESSION['success']; 
           	unset($_SESSION['success']);
+              include('header.php');
           ?>
       </div>
   	<?php endif ?>
 
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['email'])) : ?>
+
     	<!-- <p>Welcome <strong><?php echo $_SESSION['email']; ?></strong></p>  -->
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+    	<?php include('header_logged.php')?>
+        
+        <!-- <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>    -->
     <?php endif ?>
 </div>
+
+    </br> </br> </br> </br>
 
     <div style="padding-left:20px">
         <div class="container">
