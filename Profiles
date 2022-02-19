@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <style>
+        h2 {
+            color: brown;
+            margin: 20px 32px;
+            font-size: 20px;
+            position: center;
+            text-align: center;
+        }
+
+        button {
+            background-color: brown;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100%;
+            position: center;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+        <a href="homePage.html" class="logo">My Wellbeing</a>
+        <div class="header-right">
+            <a href="homePage.html">Home</a>
+            <a href="userprofile.html">Profile</a>
+            <a href="signup.html">Sign up</a>
+            <a href="signin.html">Sign in</a>
+        </div>
+    </div>
+
+    <form action="/action_page.php" method="post">
+        <div>
+
+            <h2>Personal Information</h2>
+            <hr>
+            <pre>
+            <label><b>First name:</b></label>
+            
+            <label><b>Last name: </b></label>
+         
+            <label><b>E-mail:</b></label>
+            
+            <label><b>Gender:</b></label>
+
+            <label><b>Points:</b></label>
+           </pre>
+
+            <div class="center">
+                <button type="submit">Edit personal information</button>
+            </div>
+           
+
+
+
+
+        </div>
+    </form>
+</body>
+</html>
