@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <style>
+        
+
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 700px;
+            display: flex;
+            box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+        }
+
+            .wrapper .left {
+                width: 35%;
+                padding: 30px 25px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                text-align: center;
+                color: black;
+                background: linear-gradient(to right,#dbd4c8,floralwhite);
+            }
+
+                .wrapper .left img {
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                }
+
+                .wrapper .left h4 {
+                    margin-bottom: 10px;
+                }
+
+                .wrapper .left p {
+                    font-size: 12px;
+                }
+
+            .wrapper .right {
+                width: 65%;
+                background: #fff;
+                padding: 30px 25px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+                .wrapper .right .info {
+                    margin-bottom: 25px;
+                }
+
+                    .wrapper .right .info h3 {
+                        margin-bottom: 15px;
+                        padding-bottom: 5px;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #353c4e;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                    }
+
+                .wrapper .right .info_data {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                    .wrapper .right .info_data .data {
+                        width: 45%;
+                    }
+
+                        .wrapper .right .info_data .data h4 {
+                            color: #353c4e;
+                            margin-bottom: 5px;
+                        }
+
+                        .wrapper .right .info_data .data p {
+                            font-size: 13px;
+                            margin-bottom: 10px;
+                            color: #919aa3;
+                        }
+        button {
+            background-color: brown;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100%;
+            position: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="homePage.html" class="logo">My Wellbeing</a>
+        <div class="header-right">
+            <a href="homePage.html">Home</a>
+            <a href="userprofile.html">Profile</a>
+            <a href="signup.html">Sign up</a>
+            <a href="signin.html">Sign in</a>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="left">
+            <img src="profileicon.png" alt="user" width="100">
+            <h4>Points:</h4>
+            <p>add points here</p>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Personal Information</h3>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>First name:</h4>
+                        <p>add first name here</p><br />
+
+                    </div>
+
+                    <div class="data">
+                        <h4>Last name:</h4>
+                        <p>add lasr name here</p><br />
+                    </div>
+
+                    <div class="data">
+                        <h4>Email:</h4>
+                        <p>add email here</p><br />
+                    </div>
+
+                    <div class="data">
+                        <h4>Gender:</h4>
+                        <p>add gender here</p><br />
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <br />
+                <button type="submit">Edit personal information</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
