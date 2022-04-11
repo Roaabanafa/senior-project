@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Professionals profiles</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <style>
+        
+        h2 {
+          text-align:center;
+          color: brown;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            border: 1px solid brown;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        button {
+            border: 1px solid;
+            background-color: brown;
+            color: white;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+            left: 0;
+            margin: 0px;
+            transition: all .3s;
+        }
+
+        
+
+            button:hover, a:hover {
+                opacity: 0.7;
+            }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="homePage.html" class="logo">My Wellbeing</a>
+        <div class="header-right">
+            <a href="homePage.html">Home</a>
+            <a href="userprofile.html">Profile</a>
+            <a href="signup.html">Sign up</a>
+            <a href="signin.html">Sign in</a>
+        </div>
+    </div>
+
+    <h2>Professionals Profils </h2>
+    <hr />
+    <br />
+
+    <div class="card">
+        <h1>full name</h1>
+        <p class="title">specility</p>
+        <p>graudted from University of ...</p>
+        <br />
+        <button>avalibity times</button>
+        <br />
+        <button>Contact</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="card">
+
+        <h1>full name</h1>
+        <p class="title">specilty</p>
+        <p>graudted from University of ...</p>
+        <br />
+        <button>avalibity times</button>
+        <br />
+        <button>Contact</button>
+    </div>
+
+</body>
+</html>
