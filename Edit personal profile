@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Eidt Profile Page</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+
+    <style>
+       
+        img {
+            box-sizing: border-box;
+            width: 149px;
+            height: 149px;
+            border-radius: 50%;
+            margin: 0;
+            padding: 3px;
+            background-color: white;
+            overflow: hidden;
+            transition: all 1s;
+        }
+
+        
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            display: block;
+            box-sizing: border-box;
+            color: black;
+            margin-bottom: 30px;
+            padding: 4px;
+            width: 220px;
+            height: 32px;
+            border: 1px solid brown;
+            font-weight: 400;
+            font-size: 15px;
+       }
+
+           
+
+
+        button {
+            border: 1px solid ;
+            background-color: brown;
+            color: white;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+            left: 0;
+            margin: 0px;
+            transition: all .3s;
+        }
+
+       
+        input[type="file"] {
+            display: none;
+        }
+
+        label {
+            box-sizing: border-box;
+            width: 40px;
+            height: 20px;
+            color: white;
+            border: 1px solid;
+            color: white;
+            padding: 4px;
+            border-radius: 2px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="homePage.html" class="logo">My Wellbeing</a>
+        <div class="header-right">
+            <a href="homePage.html">Home</a>
+            <a href="userprofile.html">Profile</a>
+            <a href="signup.html">Sign up</a>
+            <a href="signin.html">Sign in</a>
+        </div>
+    </div>
+
+
+    <center>
+        <div>
+
+            <input type="file" id="file" name="image" />
+            <img src="profileicon.png">
+            <br />
+            <br />
+            <button>Edit pic</button>
+            <br />
+            <br />
+
+
+            <input type="text" placeholder="User Name" name="">
+            <input type="Email" placeholder="Email" name="">
+            <input type="number" placeholder="Phone Number" name="">
+            <input type="text" placeholder="Date of Birth" name="">
+            <input type="text" name="" placeholder="Gender">
+
+            <button>DONE</button>
+            <button>CANCEL</button>
+
+
+        </div>
+
+
+    </center>
+
+</body>
+</html>
