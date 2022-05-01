@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Psyclogical effects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="StyleSheet.css">
+
+    <style>
+        h2 {
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+        <a href="homePage.html" class="logo">My Wellbeing</a>
+        <div class="header-right">
+            <a href="homePage.html">Home</a>
+            <a href="signup.html">Sign up</a>
+            <a href="signin.html">Sign in</a>
+        </div>
+    </div>
+
+    <div class="center">
+        <h2>Mental Health Effects of COVID-19 Pandemia: A Review of Clinical and Psychological Traits</h2>
+        <p>
+            As the coronavirus (COVID-19) pandemic sweeps across the world, it is causing widespread concern, fear and stress,
+            all of which are natural and normal reactions to the changing and uncertain situation that everyone finds themselves in.
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7324731/"> read more.</a>
+        </p>
+
+        <p></p>
+        <hr />
+
+        <h2>Psychological effects caused by the COVID-19 pandemic in health professionals: A systematic review with meta-analysis </h2>
+        <p>
+            Psychological suffering by health professionals may be associated with the uncertainty of a safe workplace.
+            Front-line professionals exposed and involved in the diagnosis and treatment of COVID-19 patients are more susceptible.
+            <a href="https://www.sciencedirect.com/science/article/pii/S027858462030378X"> read more.</a>
+        </p>
+
+        <p></p>
+        <hr />
+
+        <h2>Psychological effects of the COVID-19 outbreak and lockdown among students and workers of a Spanish university</h2>
+        <p>
+            The aim of this study was to analyze the psychological impact of COVID-19 in the university community during the first weeks of confinement.
+            <a href="https://www.sciencedirect.com/science/article/pii/S0165178120313147"> read more.</a>
+        </p>
+
+        <p></p>
+        <hr />
+    </div>
+
+</body>
+</html>
