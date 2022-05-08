@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Eidt Profile Page</title>
+    <title>Editt Profile Page</title>
     <link rel="stylesheet" href="StyleSheet.css">
 
     <style>
@@ -58,12 +58,7 @@
             color:brown;
             display: table-cell;
         }
-        form {
-            display: table;
-        }
-        p {
-            display: table-row;
-        }
+     
         input {
             display: table-cell;
         }
@@ -75,7 +70,7 @@
 
     <center>
         <div class="center">
-
+         <form>
             <input type="file" id="file" name="image" />
             <img src="profileicon.png">
             <br />
@@ -104,8 +99,8 @@
 
             <button>Done</button>
             <button>Cancel</button>
-
-
+ 
+         </form>
         </div>
 
 
